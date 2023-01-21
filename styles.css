@@ -37,13 +37,14 @@ main {
 .card img {
     width: 100%;
     border-radius: 0.5em;
+    display: block;
 }
 
 
 .info h1 {
     color: var(--dark-blue);
     font-size: 22px;
-    padding-top: 0.5em;
+    padding-top: 1rem;
 }
 
 .info p {
