@@ -17,7 +17,6 @@
     align-items: center;
     min-height: 100vh;
     background-color: var(--light-gray);
-    font-size: 15px;
   }
 
   main {
@@ -49,4 +48,5 @@
   }
   .info p {
     color: #7d889e;
+    font-size: 16px;
   }
