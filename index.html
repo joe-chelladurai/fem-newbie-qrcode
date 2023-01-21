@@ -21,67 +21,15 @@
 
     <title>QR code component solution using CSS Flexbox and Variables</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      :root {
-        --white: hsl(0, 0%, 100%);
-        --light-gray: hsl(212, 45%, 89%);
-        --grayish-blue: hsl(220, 15%, 55%);
-        --dark-blue: hsl(218, 44%, 22%);
-      }
-      body {
-        font-family: "Outfit", sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        height: 100vh;
-        background-color: var(--light-gray);
-      }
-
-      .card {
-        width: 320px;
-        text-align: center;
-        box-sizing: border-box;
-        border-radius: 20px;
-        background-color: var(--white);
-        box-shadow: 5px 5px rbga(0, 0, 0, 0.3);
-        padding: 1em;
-      }
-
-      .card img {
-        width: 288px;
-        height: 288px;
-        display: block;
-        border-radius: 10px;
-      }
-
-      .info {
-        padding: 1.5em 1em 1em;
-      }
-
-      .info h1 {
-        font-size: 22px;
-        line-height: 27.72px;
-        color: #1f314f;
-        margin: 0;
-      }
-      .info p {
-        font-size: 15px;
-        line-height: 18.9px;
-        color: #7d889e;
-        margin-bottom: 0;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
       <div class="card">
-        <img class="image" src="./images/image-qr-code.png" alt="qr code" />
+        <img src="./images/image-qr-code.png" alt="qr code" />
 
         <div class="info">
-          <h1>Improve your front-end skills by building projects</h1>
+          <h2>Improve your front-end skills by building projects</h2>
 
           <p>
             Scan the QR code to visit Frontend Mentor and take your coding
